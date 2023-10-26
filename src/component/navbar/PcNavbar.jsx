@@ -1,8 +1,7 @@
 import { React, useState } from "react";
 import nftmarket from "../../assets/NFT.market.png";
 import { NavLink } from "react-router-dom";
-// import { GiHamburgerMenu } from "react-icons/gi";
-// import { useState } from "react";
+
 
 const PcNavbar = () => {
 
