@@ -10,7 +10,8 @@
   display: flex;
 }
 .logo {
-  margin-left: 15px;
+  display: flex;
+  justify-content: end;
 }
 .list {
   list-style: none;
@@ -105,7 +106,7 @@
 }
 .firstslide {
   /* border: 2px solid red; */
-  height: 120vh;
+  /* height: 120vh; */
   display: flex;
 }
 .image {
@@ -118,7 +119,7 @@
   background-color: rgba(61, 61, 61, 0.37);
 }
 .img {
-  margin-top: -40px;
+  /* margin-top: -40px; */
   /* margin-right: 10px; */
   height: 80vh;
 }
@@ -132,24 +133,42 @@ a {
   text-decoration: unset;
 }
 
-.active{
+.active {
   color: blue;
 }
 .about {
   background-color: black;
 }
 
-.app .firstslide{
+.navv {
+  display: none;
+}
+.app .firstslide {
   color: hotpink;
 }
 
-/* button{
-  background-color: green;
+@media (max-width: 1026px) {
+  .firstslide {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image {
+    margin-left: -50px;
+  }
+  .img {
+    margin-left: -40px;
+  }
+  .firsttext {
+    margin-left: -30px;
+    width: 350px;
+  }
+  .collectionArtistCommunity {
+    width: 350px;
+  }
+  .nav {
+    display: none;
+  }
+  .navv {
+  display: flex;
+  justify-content: end;  }
 }
-
-button.special{
-  background: #000;
-}
-p.theprice{
-
-} */

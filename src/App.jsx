@@ -5,13 +5,15 @@ import arrow from "./assets/Arrow 1.png";
 import btn from "./assets/btn.svg";
 import Navbar from "./component/navbar/Navbar";
 
+
 function App() {
   // const [count, setCount] = useState(0);
 
   return (
     <>
       <div className="body app">
-        <Navbar />
+        <Navbar/>
+       
         <div className="firstslide">
           <div className="firsttext">
             <p className="beone">
