@@ -1,5 +1,5 @@
 import React from 'react'
-import Mobilenavbar from './mobilenavbar'
+import Mobilenavbar from './Mobilenavbar'
 import PcNavbar from './PcNavbar'
 
 const Navbar = () => {
